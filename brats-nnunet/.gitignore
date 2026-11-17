@@ -1,0 +1,8 @@
+data/
+nnUNet_*/
+*.nii.gz
+*.npy
+*.npz
+*.pth
+__pycache__/
+.ipynb_checkpoints/

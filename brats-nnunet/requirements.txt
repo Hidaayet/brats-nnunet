@@ -1,0 +1,9 @@
+nnunetv2
+nibabel
+numpy
+scipy
+pandas
+matplotlib
+torch
+tqdm
+scikit-learn
