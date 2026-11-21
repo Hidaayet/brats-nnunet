@@ -1,8 +1,16 @@
+# data and large artifacts: never commit patient scans or model weights
 data/
 nnUNet_*/
+prepared/
 *.nii.gz
+*.nii
 *.npy
 *.npz
 *.pth
+*.b2nd
+*.pkl
+results/predictions/
+# python / notebooks
 __pycache__/
 .ipynb_checkpoints/
+.venv/

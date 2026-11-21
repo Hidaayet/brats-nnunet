@@ -1,9 +1,10 @@
-nnunetv2
+# torch is intentionally NOT listed: use the CUDA build already installed on Kaggle/Colab
+# (nnunetv2 needs torch>=2.1.2, not 2.9.*). Locally: install the torch build for your CUDA first.
+# Versions below are the ones this code was checked against; record your real versions with pip freeze.
+nnunetv2==2.8.1
 nibabel
 numpy
 scipy
 pandas
 matplotlib
-torch
 tqdm
-scikit-learn
